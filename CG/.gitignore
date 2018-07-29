@@ -1,0 +1,4 @@
+#Compilation files and directories
+.vs/
+Debug/
+x64/

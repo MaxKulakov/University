@@ -1,0 +1,4 @@
+﻿  mult.cpp
+c:\temp\vyazkovaa\oop_task3\mult\mult.cpp(374): warning C4101: 'errorCode': unreferenced local variable
+c:\temp\vyazkovaa\oop_task3\mult\mult.cpp(47): warning C4715: 'Set::del_node': not all control paths return a value
+  Mult.vcxproj -> C:\Temp\VyazkovAA\OOP_task3\x64\Debug\Mult.exe

@@ -1,0 +1,4 @@
+﻿  mult.cpp
+c:\users\andrey\documents\visual studio 2017\projects\oop_task1-master\mult\mult.cpp(46): warning C4715: Set::del_node: значение возвращается не при всех путях выполнения
+  Mult.vcxproj -> C:\Users\Andrey\Documents\Visual Studio 2017\Projects\OOP_task1-master\x64\Debug\Mult.exe
+  Mult.vcxproj -> C:\Users\Andrey\Documents\Visual Studio 2017\Projects\OOP_task1-master\x64\Debug\Mult.pdb (Partial PDB)

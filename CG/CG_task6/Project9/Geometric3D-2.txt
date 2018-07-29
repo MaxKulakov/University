@@ -1,0 +1,90 @@
+camera 20 10 5 20 10 0 0 1 0
+
+screen 90 2 10 20
+
+#первый рисунок
+color 0 0 0
+thickness 2
+
+model 0.5 0.433 0.4082 1 0.866 0.8165
+path 5
+0 0 0
+0.5 0.2887 0.8165
+1 0 0
+0.5 0.866 0
+0.5 0.2887 0.8165
+path 3
+0.5 0.866 0
+0 0 0
+1 0 0
+
+pushTransform
+rotate 150 1 1 0
+pushTransform
+scale 3
+translate 25 12 0
+figure
+popTransform
+rotate 60 1 1 0
+pushTransform
+scale 3
+translate 35 12 1
+figure
+popTransform
+rotate -75 1 1 0
+pushTransform
+translate 15 4 3
+figure
+popTransform
+rotate 180 1 1 0
+translate 35 4 4
+figure
+popTransform
+
+#второй рисунок
+
+color 0 0 0
+thickness 2
+
+model 0.5 0.5 0.5 1 1 1 
+path 10
+0 1 0
+1 1 0
+1 1 1
+0 1 1
+0 1 0
+0 0 0
+1 0 0
+1 0 1
+0 0 1
+0 1 1
+path 2
+0 0 0
+0 0 1
+path 2
+1 1 0
+1 0 0
+path 2
+1 1 1
+1 0 1
+
+pushTransform
+rotate 30 1 1 0
+pushTransform
+scale 3
+translate 5 12 2
+figure
+popTransform
+rotate 60 1 1 0
+scale 3
+translate 15 12 5
+figure
+popTransform
+rotate -45 1 1 0
+pushTransform
+translate 5 4 6
+figure
+popTransform
+rotate 180 1 1 0
+translate 22 4 7
+figure

@@ -1,0 +1,4 @@
+﻿  mult.cpp
+c:\users\andrey\source\repos\oop_task3\oop_task3\mult.cpp(432): warning C4286: MemoryException: перехвачено базовым классом ("Exception") в строке 427
+c:\users\andrey\source\repos\oop_task3\oop_task3\mult.cpp(49): warning C4715: Set::del_node: значение возвращается не при всех путях выполнения
+  OOP_task3.vcxproj -> C:\Users\Andrey\source\repos\OOP_task3\Debug\OOP_task3.exe
