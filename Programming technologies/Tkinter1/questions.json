@@ -1,0 +1,94 @@
+{
+  "easy": [
+    {
+      "text": "Что будет выведено после выполнения данного кода?\n\nbfr = {'O Hi Mark', 'wow', 'interesting', 'LotR'}\n\nprint(sorted(bfr))",
+      "answers": {
+        "1": "['LotR', 'O Hi Mark', 'interesting', 'wow']",
+        "2": "{'LotR', 'O Hi Mark', 'interesting', 'wow'}",
+        "3": "'LotR O Hi Mark interesting wow'",
+        "4": "'LotR, O Hi Mark, interesting, wow'"
+      },
+      "correctAns": "['LotR', 'O Hi Mark', 'interesting', 'wow']"
+    },
+    {
+      "text": "Что выведет следующий фрагмент кода?\nx = 4.5\ny = 2\nprint(x // y)",
+      "answers": {
+        "1": "9.0",
+        "2": "21",
+        "3": "2.0",
+        "4": "2.25"
+      },
+      "correctAns": "2.0"
+    },
+    {
+      "text": "print(type(1 / 2))\n\nЧто будет напечатано в результате выполнения следующего кода?",
+      "answers": {
+        "1": "class 'int'",
+        "2": "class 'double'",
+        "3": "class 'float'",
+        "4": "class 'number'"
+      },
+      "correctAns": "class 'float'"
+    },
+    {
+      "text": "Что будет выведено на экран после выполнения этого кода\n\na = 2, 3\n\nprint( a)",
+      "answers": {
+        "1": "возникнет ошибка",
+        "2": "3",
+        "3": "(2, 3)",
+        "4": "2"
+      },
+      "correctAns": "(2, 3)"
+    }
+  ],
+  "medium": [
+    {
+      "text": "Какие из перечисленных выражений создадут список ровно из трех элементов:",
+      "answers": {
+        "1": "list('abc')",
+        "2": "mas = [1, 2, 2]",
+        "3": "'abc’.split()",
+        "4": "‘c a t’.split(‘ ‘)"
+      },
+      "correctAns": ["list('abc')", "mas = [1, 2, 2]", "‘c a t’.split(‘ ‘)"]
+    },
+        {
+      "text": "S = \"Hello, world!\"\n\nВыберите варианты инструкций, которые выведут одинаковый результат?",
+      "answers": {
+        "1": "print(S[-1]) и print(S[12])",
+        "2": "print(S[12]) и print(S[-12])",
+        "3": "print(S[-12]) и print(S[1])",
+        "4": "print(S[12]) и print(S[13])"
+      },
+      "correctAns": ["print(S[-1]) и print(S[12])", "print(S[-12]) и print(S[1])"]
+    },
+       {
+      "text": "Что нельзя использовать в качестве ключа для словаря?",
+      "answers": {
+        "1": "логическое значение (True, False)",
+        "2": "число с плавающей запятой",
+        "3": "список",
+        "4": "строку"
+      },
+      "correctAns": ["список"]
+    }
+  ],
+  "hard": [
+    {
+      "text": "Что будет выведено на экран в результате выполнения следующего кода?\n\nprint(1, 2, 3, 4, 5, sep='-')",
+      "correctAns": "1-2-3-4-5"
+    },
+    {
+      "text": "Что будет выведено на экран в результате выполнения следующего кода?\n\nprint('test:', '1,', '2,', 3, end='')\n\nprint('.')",
+      "correctAns": "test: 1, 2, 3."
+    },
+    {
+      "text": "Какой командой можно подключить модуль на языке Python",
+      "correctAns": "import"
+    },
+    {
+      "text": "Какой оператор позволяет пропустить тело цикла (возможно частично) и перейти к следующей его итерации?",
+      "correctAns": "continue"
+    }
+  ]
+}
